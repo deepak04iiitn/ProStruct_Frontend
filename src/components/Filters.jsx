@@ -17,7 +17,7 @@ function Filters({
               <button
                 key={role}
                 onClick={() => onRoleChange(role)}
-                className={`px-3 py-1 rounded-full text-sm ${
+                className={`px-3 py-1 rounded-full cursor-pointer text-sm ${
                   selectedRoles.includes(role)
                     ? 'bg-blue-500 text-white'
                     : 'bg-white border border-gray-300'
