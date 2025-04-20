@@ -127,7 +127,7 @@ function App() {
         
         console.log('Fetching contacts from HubSpot API via backend proxy...');
         
-        const response = await axios.get('http://localhost:3000/api/hubspot/contacts');
+        const response = await axios.get('https://prostruct-backend.onrender.com/api/hubspot/contacts');
         
         console.log('HubSpot API response:', response);
         
