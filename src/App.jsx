@@ -274,7 +274,10 @@ function App() {
 
   if (loading && contacts.length === 0) return (
     <div className="flex justify-center items-center h-screen">
-      <div className="text-lg">Loading contacts from HubSpot...</div>
+      <div className="text-lg">
+        Loading contacts from HubSpot... <br />
+        Please be patient, this may take a few minutes!
+      </div>
     </div>
   );
   
